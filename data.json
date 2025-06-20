@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Desain dan Analisis Algoritma",
+    "icon": "fa-solid fa-code-branch",
+    "time": "Sabtu, 08.00 - 10.00",
+    "cronTime": "0 8 * * 6",
+    "url": "https://spada.swadharma.ac.id/mod/attendance/view.php?id=23637"
+  },
+  {
+    "id": 2,
+    "title": "Struktur Data dan Algoritma",
+    "icon": "fa-solid fa-sitemap",
+    "time": "Sabtu, 10.15",
+    "cronTime": "15 10 * * 6",
+    "url": "https://spada.swadharma.ac.id/mod/attendance/view.php?id=23638"
+  },
+  {
+    "id": 3,
+    "title": "Jaringan Komputer",
+    "icon": "fa-solid fa-network-wired",
+    "time": "Sabtu, 13.00 - 15.00",
+    "cronTime": "0 13 * * 6",
+    "url": "https://spada.swadharma.ac.id/mod/attendance/view.php?id=23382"
+  },
+  {
+    "id": 4,
+    "title": "Analisis dan Perancangan Sistem",
+    "icon": "fa-solid fa-diagram-project",
+    "time": "Sabtu, 16.15 - 17.15",
+    "cronTime": "15 16 * * 6",
+    "url": "https://spada.swadharma.ac.id/mod/attendance/view.php?id=23636"
+  },
+  {
+    "id": 5,
+    "title": "Sistem Operasi",
+    "icon": "fa-solid fa-desktop",
+    "time": "Senin, 18.00 - 21.00",
+    "cronTime": "0 18 * * 1",
+    "url": "https://spada.swadharma.ac.id/mod/attendance/view.php?id=23635"
+  }
+]
