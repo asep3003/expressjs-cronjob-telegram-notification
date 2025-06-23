@@ -34,10 +34,10 @@ const startCronJobs = () => {
   //   notificationController.sendScheduleNotification(1);
   // });
 
-  // cron.schedule("*/10 * * * *", async () => {
-  //   console.log("Testing every 10 minutes");
-  //   await telegramService.sendMessage(`Hello ${new Date()}`, "HTML");
-  // });
+  cron.schedule("*/10 * * * *", async () => {
+    console.log("Testing every 10 minutes");
+    await telegramService.sendMessage(`Hello ${new Date()}`, "HTML");
+  });
 
   console.log("Cron jobs scheduled!");
 };

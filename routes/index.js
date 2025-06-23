@@ -37,7 +37,7 @@ schedules.forEach((schedule) => {
 });
 
 router.get("/", (req, res) => {
-  res.send("Cron job service for schedules is ready!");
+  res.send(`Cron job service for schedules is ready! ${new Date()}\n`);
 });
 
 module.exports = router;
