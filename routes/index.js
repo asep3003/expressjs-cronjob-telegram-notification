@@ -37,6 +37,7 @@ schedules.forEach((schedule) => {
 });
 
 router.get("/", (req, res) => {
+  console.log("Root route hit!");
   res.send(`Cron job service for schedules is ready! ${new Date()}\n`);
 });
 
