@@ -1,7 +1,7 @@
 const telegramService = require("../helpers/telegramService");
 const data = require("../data.json"); // Pastikan Anda memiliki data yang diperlukan
 
-const notificationController = {
+const notifyAbsen = {
   testingOnly: async () => {
     console.log("Testing route hit!");
     await telegramService.sendMessage(`Testing route! ${new Date()}`);
@@ -51,4 +51,4 @@ Jangan sampai terlewat ya!
   },
 };
 
-module.exports = { notificationController };
+module.exports = { notifyAbsen };
