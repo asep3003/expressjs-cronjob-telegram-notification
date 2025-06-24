@@ -11,7 +11,6 @@ app.use(express.json());
 app.use("/", indexRouter); // Rute dasar jika Anda ingin memiliki endpoint HTTP
 
 // Start cron jobs
-console.log("Running bro")
 startCronJobs();
 
 app.listen(PORT, () => {
